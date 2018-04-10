@@ -40,4 +40,7 @@ void print_Interval(Interval* input);
 void d_print_Number(Number* input);
 void d_print_Interval(Interval* input);
 
+char* getString_Union();
+char* getString_Infinity();
+
 #endif

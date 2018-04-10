@@ -7,7 +7,9 @@ Accelerated course.
 Download or clone this repository. Compile the C source files in the `src` directory. Include `Interval.h` in your C source file to use this library.
 
 ## Contributing ##
-// TBA
+*// TBA*
 
 ## License
-// TBA
+[MIT License][g16-ml-license]
+
+[g16-ml-license]: LICENSE

@@ -183,3 +183,19 @@ void print_Interval(Interval* input)
 
   free(interval);
 }
+
+// Returns the math union character
+// @return  char*                 Math union character
+char* getString_Union()
+{
+  char* ret = "∪";
+  return ret;
+}
+
+// Returns the math infinity character
+// @return  char*                 Math infinity character
+char* getString_Infinity()
+{
+  char* ret = "∞";
+  return ret;
+}

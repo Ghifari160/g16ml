@@ -24,10 +24,13 @@ int main()
   printf("g16ML Demo Suite\n\n");
 
   printf("Demo #1:\t%s\n", Interval_toString(interval1));
-  printf("Demo #2:\t%s ∪ %s ∪ %s ∪ %s\n",
+  printf("Demo #2:\t%s %s %s %s %s %s %s\n",
       Interval_toString(interval2),
+      getString_Union(),
       Interval_toString(interval3),
+      getString_Union(),
       Interval_toString(interval4),
+      getString_Union(),
       Interval_toString(interval5));
   printf("Demo #3:\t%s\n", Interval_toString(interval6));
   printf("Demo #4:\t%s\n", Interval_toString(interval7));
